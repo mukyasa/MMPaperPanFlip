@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55999A771A49648900334283 /* FlipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 55999A761A49648900334283 /* FlipView.m */; };
+		55B240281A47ECA400EE56BF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 55B240271A47ECA400EE56BF /* 2.png */; };
+		55B2402A1A47F64B00EE56BF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B240291A47F64B00EE56BF /* ViewController.m */; };
+		55B2402C1A47F77600EE56BF /* arc.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55B2402B1A47F77600EE56BF /* arc.jpg */; };
+		55B341BB1A4297EB009CF339 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B341BA1A4297EB009CF339 /* main.m */; };
+		55B341BE1A4297EB009CF339 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B341BD1A4297EB009CF339 /* AppDelegate.m */; };
+		55B341C41A4297EB009CF339 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B341C21A4297EB009CF339 /* Main.storyboard */; };
+		55B341C61A4297EB009CF339 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B341C51A4297EB009CF339 /* Images.xcassets */; };
+		55B341C91A4297EB009CF339 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55B341C71A4297EB009CF339 /* LaunchScreen.xib */; };
+		55B341D51A4297EB009CF339 /* MMPaperPanFlipTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B341D41A4297EB009CF339 /* MMPaperPanFlipTests.m */; };
+		55B341E01A42AF78009CF339 /* FlipTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B341DF1A42AF78009CF339 /* FlipTransition.m */; };
+		55B341E31A42B4A1009CF339 /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55B341E21A42B4A1009CF339 /* NextViewController.m */; };
+		55D193461A4B0B7600B38DBD /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D193451A4B0B7600B38DBD /* QuartzCore.framework */; };
+		55D193491A4B0E5500B38DBD /* icon_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D193471A4B0E5500B38DBD /* icon_arrow.png */; };
+		55D1934A1A4B0E5500B38DBD /* icon_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 55D193481A4B0E5500B38DBD /* icon_arrow@2x.png */; };
+		55DF31C11A44319200B6A041 /* CEBaseInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF31BA1A44319200B6A041 /* CEBaseInteractionController.m */; };
+		55DF31C41A44319200B6A041 /* CEVerticalSwipeInteractionController.m in Sources */ = {isa = PBXBuildFile; fileRef = 55DF31C01A44319200B6A041 /* CEVerticalSwipeInteractionController.m */; };
+		55F57B8B1A4C0502005F6E96 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = 55F57B8A1A4C0502005F6E96 /* next.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55B341CF1A4297EB009CF339 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55B341AD1A4297EB009CF339 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55B341B41A4297EB009CF339;
+			remoteInfo = MMPaperPanFlip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55999A751A49648900334283 /* FlipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipView.h; sourceTree = "<group>"; };
+		55999A761A49648900334283 /* FlipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipView.m; sourceTree = "<group>"; };
+		55B240271A47ECA400EE56BF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		55B240291A47F64B00EE56BF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		55B2402B1A47F77600EE56BF /* arc.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = arc.jpg; sourceTree = "<group>"; };
+		55B341B51A4297EB009CF339 /* MMPaperPanFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMPaperPanFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B341B91A4297EB009CF339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B341BA1A4297EB009CF339 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		55B341BC1A4297EB009CF339 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		55B341BD1A4297EB009CF339 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		55B341BF1A4297EB009CF339 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		55B341C31A4297EB009CF339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55B341C51A4297EB009CF339 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		55B341C81A4297EB009CF339 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		55B341CE1A4297EB009CF339 /* MMPaperPanFlipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMPaperPanFlipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55B341D31A4297EB009CF339 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B341D41A4297EB009CF339 /* MMPaperPanFlipTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMPaperPanFlipTests.m; sourceTree = "<group>"; };
+		55B341DE1A42AF78009CF339 /* FlipTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlipTransition.h; sourceTree = "<group>"; };
+		55B341DF1A42AF78009CF339 /* FlipTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlipTransition.m; sourceTree = "<group>"; };
+		55B341E11A42B4A1009CF339 /* NextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NextViewController.h; path = ../NextViewController.h; sourceTree = "<group>"; };
+		55B341E21A42B4A1009CF339 /* NextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NextViewController.m; path = ../NextViewController.m; sourceTree = "<group>"; };
+		55D193451A4B0B7600B38DBD /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		55D193471A4B0E5500B38DBD /* icon_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon_arrow.png; path = ../InteractionControllers/icon_arrow.png; sourceTree = "<group>"; };
+		55D193481A4B0E5500B38DBD /* icon_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon_arrow@2x.png"; path = "../InteractionControllers/icon_arrow@2x.png"; sourceTree = "<group>"; };
+		55DF31B91A44319200B6A041 /* CEBaseInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEBaseInteractionController.h; sourceTree = "<group>"; };
+		55DF31BA1A44319200B6A041 /* CEBaseInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEBaseInteractionController.m; sourceTree = "<group>"; };
+		55DF31BF1A44319200B6A041 /* CEVerticalSwipeInteractionController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CEVerticalSwipeInteractionController.h; sourceTree = "<group>"; };
+		55DF31C01A44319200B6A041 /* CEVerticalSwipeInteractionController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CEVerticalSwipeInteractionController.m; sourceTree = "<group>"; };
+		55F57B8A1A4C0502005F6E96 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55B341B21A4297EB009CF339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55D193461A4B0B7600B38DBD /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B341CB1A4297EB009CF339 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55B341AC1A4297EB009CF339 = {
+			isa = PBXGroup;
+			children = (
+				55D193451A4B0B7600B38DBD /* QuartzCore.framework */,
+				55DF31B81A44319200B6A041 /* InteractionControllers */,
+				55B341B71A4297EB009CF339 /* MMPaperPanFlip */,
+				55B341D11A4297EB009CF339 /* MMPaperPanFlipTests */,
+				55B341B61A4297EB009CF339 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55B341B61A4297EB009CF339 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55B341B51A4297EB009CF339 /* MMPaperPanFlip.app */,
+				55B341CE1A4297EB009CF339 /* MMPaperPanFlipTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55B341B71A4297EB009CF339 /* MMPaperPanFlip */ = {
+			isa = PBXGroup;
+			children = (
+				55F57B8C1A4C0F64005F6E96 /* Images */,
+				55B341BC1A4297EB009CF339 /* AppDelegate.h */,
+				55B341BD1A4297EB009CF339 /* AppDelegate.m */,
+				55B341BF1A4297EB009CF339 /* ViewController.h */,
+				55B240291A47F64B00EE56BF /* ViewController.m */,
+				55B341E11A42B4A1009CF339 /* NextViewController.h */,
+				55B341E21A42B4A1009CF339 /* NextViewController.m */,
+				55B341C21A4297EB009CF339 /* Main.storyboard */,
+				55B341C51A4297EB009CF339 /* Images.xcassets */,
+				55B341C71A4297EB009CF339 /* LaunchScreen.xib */,
+				55B341B81A4297EB009CF339 /* Supporting Files */,
+			);
+			path = MMPaperPanFlip;
+			sourceTree = "<group>";
+		};
+		55B341B81A4297EB009CF339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B341B91A4297EB009CF339 /* Info.plist */,
+				55B341BA1A4297EB009CF339 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55B341D11A4297EB009CF339 /* MMPaperPanFlipTests */ = {
+			isa = PBXGroup;
+			children = (
+				55B341D41A4297EB009CF339 /* MMPaperPanFlipTests.m */,
+				55B341D21A4297EB009CF339 /* Supporting Files */,
+			);
+			path = MMPaperPanFlipTests;
+			sourceTree = "<group>";
+		};
+		55B341D21A4297EB009CF339 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				55B341D31A4297EB009CF339 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55DF31B81A44319200B6A041 /* InteractionControllers */ = {
+			isa = PBXGroup;
+			children = (
+				55DF31B91A44319200B6A041 /* CEBaseInteractionController.h */,
+				55DF31BA1A44319200B6A041 /* CEBaseInteractionController.m */,
+				55DF31BF1A44319200B6A041 /* CEVerticalSwipeInteractionController.h */,
+				55DF31C01A44319200B6A041 /* CEVerticalSwipeInteractionController.m */,
+				55F57B8D1A4C0F6F005F6E96 /* Transition */,
+				55F57B8E1A4C0F8B005F6E96 /* Story View */,
+			);
+			path = InteractionControllers;
+			sourceTree = "<group>";
+		};
+		55F57B8C1A4C0F64005F6E96 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				55B2402B1A47F77600EE56BF /* arc.jpg */,
+				55F57B8A1A4C0502005F6E96 /* next.png */,
+				55B240271A47ECA400EE56BF /* 2.png */,
+				55D193471A4B0E5500B38DBD /* icon_arrow.png */,
+				55D193481A4B0E5500B38DBD /* icon_arrow@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		55F57B8D1A4C0F6F005F6E96 /* Transition */ = {
+			isa = PBXGroup;
+			children = (
+				55B341DE1A42AF78009CF339 /* FlipTransition.h */,
+				55B341DF1A42AF78009CF339 /* FlipTransition.m */,
+			);
+			name = Transition;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		55F57B8E1A4C0F8B005F6E96 /* Story View */ = {
+			isa = PBXGroup;
+			children = (
+				55999A751A49648900334283 /* FlipView.h */,
+				55999A761A49648900334283 /* FlipView.m */,
+			);
+			name = "Story View";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55B341B41A4297EB009CF339 /* MMPaperPanFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B341D81A4297EB009CF339 /* Build configuration list for PBXNativeTarget "MMPaperPanFlip" */;
+			buildPhases = (
+				55B341B11A4297EB009CF339 /* Sources */,
+				55B341B21A4297EB009CF339 /* Frameworks */,
+				55B341B31A4297EB009CF339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMPaperPanFlip;
+			productName = MMPaperPanFlip;
+			productReference = 55B341B51A4297EB009CF339 /* MMPaperPanFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55B341CD1A4297EB009CF339 /* MMPaperPanFlipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B341DB1A4297EB009CF339 /* Build configuration list for PBXNativeTarget "MMPaperPanFlipTests" */;
+			buildPhases = (
+				55B341CA1A4297EB009CF339 /* Sources */,
+				55B341CB1A4297EB009CF339 /* Frameworks */,
+				55B341CC1A4297EB009CF339 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55B341D01A4297EB009CF339 /* PBXTargetDependency */,
+			);
+			name = MMPaperPanFlipTests;
+			productName = MMPaperPanFlipTests;
+			productReference = 55B341CE1A4297EB009CF339 /* MMPaperPanFlipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55B341AD1A4297EB009CF339 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = madaboutapps;
+				TargetAttributes = {
+					55B341B41A4297EB009CF339 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					55B341CD1A4297EB009CF339 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 55B341B41A4297EB009CF339;
+					};
+				};
+			};
+			buildConfigurationList = 55B341B01A4297EB009CF339 /* Build configuration list for PBXProject "MMPaperPanFlip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55B341AC1A4297EB009CF339;
+			productRefGroup = 55B341B61A4297EB009CF339 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55B341B41A4297EB009CF339 /* MMPaperPanFlip */,
+				55B341CD1A4297EB009CF339 /* MMPaperPanFlipTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55B341B31A4297EB009CF339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B341C41A4297EB009CF339 /* Main.storyboard in Resources */,
+				55D1934A1A4B0E5500B38DBD /* icon_arrow@2x.png in Resources */,
+				55B2402C1A47F77600EE56BF /* arc.jpg in Resources */,
+				55B341C91A4297EB009CF339 /* LaunchScreen.xib in Resources */,
+				55F57B8B1A4C0502005F6E96 /* next.png in Resources */,
+				55B240281A47ECA400EE56BF /* 2.png in Resources */,
+				55B341C61A4297EB009CF339 /* Images.xcassets in Resources */,
+				55D193491A4B0E5500B38DBD /* icon_arrow.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B341CC1A4297EB009CF339 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55B341B11A4297EB009CF339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B2402A1A47F64B00EE56BF /* ViewController.m in Sources */,
+				55B341E31A42B4A1009CF339 /* NextViewController.m in Sources */,
+				55DF31C11A44319200B6A041 /* CEBaseInteractionController.m in Sources */,
+				55999A771A49648900334283 /* FlipView.m in Sources */,
+				55DF31C41A44319200B6A041 /* CEVerticalSwipeInteractionController.m in Sources */,
+				55B341E01A42AF78009CF339 /* FlipTransition.m in Sources */,
+				55B341BE1A4297EB009CF339 /* AppDelegate.m in Sources */,
+				55B341BB1A4297EB009CF339 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55B341CA1A4297EB009CF339 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55B341D51A4297EB009CF339 /* MMPaperPanFlipTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55B341D01A4297EB009CF339 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55B341B41A4297EB009CF339 /* MMPaperPanFlip */;
+			targetProxy = 55B341CF1A4297EB009CF339 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55B341C21A4297EB009CF339 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B341C31A4297EB009CF339 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55B341C71A4297EB009CF339 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55B341C81A4297EB009CF339 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55B341D61A4297EB009CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		55B341D71A4297EB009CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55B341D91A4297EB009CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMPaperPanFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c0c34ae-7d8d-418c-a199-7e9a6a25e233";
+			};
+			name = Debug;
+		};
+		55B341DA1A4297EB009CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = MMPaperPanFlip/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9c0c34ae-7d8d-418c-a199-7e9a6a25e233";
+			};
+			name = Release;
+		};
+		55B341DC1A4297EB009CF339 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMPaperPanFlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMPaperPanFlip.app/MMPaperPanFlip";
+			};
+			name = Debug;
+		};
+		55B341DD1A4297EB009CF339 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MMPaperPanFlipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMPaperPanFlip.app/MMPaperPanFlip";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55B341B01A4297EB009CF339 /* Build configuration list for PBXProject "MMPaperPanFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B341D61A4297EB009CF339 /* Debug */,
+				55B341D71A4297EB009CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B341D81A4297EB009CF339 /* Build configuration list for PBXNativeTarget "MMPaperPanFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B341D91A4297EB009CF339 /* Debug */,
+				55B341DA1A4297EB009CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B341DB1A4297EB009CF339 /* Build configuration list for PBXNativeTarget "MMPaperPanFlipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55B341DC1A4297EB009CF339 /* Debug */,
+				55B341DD1A4297EB009CF339 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55B341AD1A4297EB009CF339 /* Project object */;
+}
