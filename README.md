@@ -4,7 +4,7 @@ MMPaperPanFlip
 Approach to Simulate Pan Flip Like in Paper app
 
 
-![MMPaperPanFlip](http://i.imgur.com/X50YXNI.png?1)
+![MMPaperPanFlip](http://i.imgur.com/heQpPoh.gif?1)
 
 Things To do:-
 1.Making it more interactive ,like it is done in paper app
