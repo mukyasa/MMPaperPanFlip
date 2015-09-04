@@ -10,6 +10,23 @@ Things To do:-
 1.Making it more interactive ,like it is done in paper app
 
 
+**My Other Repositories**
+
+**MMPaper:**<br />
+https://github.com/mukyasa/MMPaper<br />
+
+**MMCamScanner:**<br />
+https://github.com/mukyasa/MMCamScanner<br />
+
+**MMTextFieldEffects:**<br />
+https://github.com/mukyasa/MMTextFieldEffects<br />
+
+**MMGooglePlayNewsStand:**<br />
+https://github.com/mukyasa/MMGooglePlayNewsStand
+
+**MMTransitionEffect:**<br />
+https://github.com/mukyasa/MMTransitionEffect<br />
+
 Contact Me
 ==========
 Mukesh Mandora
